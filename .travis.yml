@@ -1,0 +1,10 @@
+os: linux
+dist: focal
+language: generic
+
+services:
+  - docker
+
+script:
+  - docker run hello-world
+  - docker version
